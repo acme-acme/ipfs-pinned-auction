@@ -1,0 +1,20 @@
+{
+  "source": "src/index.html",
+  "scripts": {
+    "prepare": "cp src/config.example.ts src/config.ts",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "@zoralabs/manage-auction-hooks": "^0.1.1",
+    "@zoralabs/nft-components": "^0.2.4",
+    "@zoralabs/nft-hooks": "^0.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "parcel": "^2.0.1"
+  }
+}
